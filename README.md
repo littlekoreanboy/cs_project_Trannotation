@@ -98,3 +98,13 @@ GCTGCCGGGACGGGTCCAAGATGGACGGCCGCTCAGGTTCTGCTTTTACCTGCGGCCCAGAGCCCCATTCATTGCCCCGG
 ```
 
 ![image](https://github.com/user-attachments/assets/60a1000f-1c04-48d1-a00c-e6b501a3c791)
+
+
+# Future Direction
+```bash
+
+1) Tweak and play around with the parameters
+2) Train on small data first, such as starting with one chromosome then predict on entire genome
+3) Explore more indepth NLP techniques such as Named Entity Recognition (NER)
+
+```
