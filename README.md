@@ -99,6 +99,9 @@ To test out a sequence, run the following:
 python3 train.py --mode test --vocab_path vocab_6kmer.json --k 6 --seq_len 512 --model_path trained_model.pth --user_sequence [SEQUENCE]
 
 ```
+
+![image](https://github.com/user-attachments/assets/60a1000f-1c04-48d1-a00c-e6b501a3c791)
+
 Lets do some examples:
 
 ```bash
@@ -114,10 +117,6 @@ GCTGCCGGGACGGGTCCAAGATGGACGGCCGCTCAGGTTCTGCTTTTACCTGCGGCCCAGAGCCCCATTCATTGCCCCGG
 ```
 
 [https://us04web.zoom.us/clips/share/fIcyyyr9QaKbUYODzRpTMQ](https://us04web.zoom.us/clips/share/AeP7ONc8QRqMhix7bp4E_Q)
-
-
-![image](https://github.com/user-attachments/assets/60a1000f-1c04-48d1-a00c-e6b501a3c791)
-
 
 # Future Direction
 ```bash
