@@ -123,7 +123,10 @@ GCTGCCGGGACGGGTCCAAGATGGACGGCCGCTCAGGTTCTGCTTTTACCTGCGGCCCAGAGCCCCATTCATTGCCCCGG
 ```bash
 
 1) Tweak and play around with the parameters
-2) Train on small data first, such as starting with one chromosome then predict on entire genome
-3) Explore more indepth NLP techniques such as Named Entity Recognition (NER)
+2) Compare with other pretrained models (The Nucleotide Transformer - https://doi.org/10.1038/s41592-024-02523-z, DNABert - https://doi.org/10.1093/bioinformatics/btab083, HyenaDNA - 
+https://doi.org/10.48550/arXiv.2306.15794)
+3) Train on small data first, such as starting with one chromosome then predict on entire genome
+4) Explore more indepth NLP techniques such as Named Entity Recognition (NER)
+5) Upate this github repository
 
 ```
