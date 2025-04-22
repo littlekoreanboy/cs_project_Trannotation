@@ -54,7 +54,7 @@ According to the Arabidopsis genome, we have 7 chromosomes (Chromosomes 1 - 5, C
 
 ![pie_chart](https://github.com/user-attachments/assets/369736b8-112c-4538-8217-983db8495854)
 
-The GC content is relatively more higher in gene sequences then intergenic sequences
+The GC content is relatively more higher in gene sequences then intergenic sequences likely due to Thermal stability, transcirptional start sites (TSS) have high GC content, and evolutionary significance (https://doi.org/10.3389/fmicb.2018.02948)
 
 ![gc_content](https://github.com/user-attachments/assets/5a078fb5-4c2c-4bea-9fda-e988e09ea41a)
 
