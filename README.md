@@ -62,6 +62,8 @@ Gene lengths are more uniform and tightly clustered across chromosomes. Intergen
 
 ![region_check](https://github.com/user-attachments/assets/6210a9d4-c0df-433b-9180-47b98f8448c2)
 
+Log based 10 to compresses the larger sequence lengths and expands the small sequence length
+
 ## Training, Evaluation and Testing
 To train the model, make sure to set you parameters. In the `train.py` file, it has the follwing arguments set:
 ```bash
