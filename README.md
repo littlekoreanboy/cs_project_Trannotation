@@ -40,13 +40,27 @@ data/
   ---- Athaliana_447_TAIR10.fa
 ```
 
-## Parse
+## Parse and Results
 As of now, `parse.py` parses the FASTA file with the addition of GFF3 file. Currently, I am interested in sequences that are genetic (sequences that are labeled as genes) or intergenetic (sequences between gene sequences). The resulting file should look something like this:
 ```bash
 0,ACTTAGTCAGTCGATGTAGCTGATGTCGATGCTAGTGCA....
 1,TGACTGATGATGCATGTAGTCGATGCTAGCTAGCTAGTC....
 ```
 Where the first column represents labels (0 for intergenic sequences, and 1 for genetic sequences) and second column represents the genomic feature
+
+According to the Arabidopsis genome, we have 7 chromosomes (Chromosomes 1 - 5, Chloroplast and Mitochondira)
+
+![gene_intergenic_per_chromosome](https://github.com/user-attachments/assets/f8dfa6cb-0273-4ebc-98f9-128c0e103d7d)
+
+![pie_chart](https://github.com/user-attachments/assets/369736b8-112c-4538-8217-983db8495854)
+
+The GC content is relatively more higher in gene sequences then intergenic sequences
+
+![gc_content](https://github.com/user-attachments/assets/5a078fb5-4c2c-4bea-9fda-e988e09ea41a)
+
+Gene lengths are more uniform and tightly clustered across chromosomes. Intergenic regions are more variable, with some very short and some very long. Chloroplast and Mitochondrial chromosomes have distinct distributions, maybe due to their unique genome structures (https://www.pnas.org/doi/full/10.1073/pnas.1500012112).
+
+![region_check](https://github.com/user-attachments/assets/6210a9d4-c0df-433b-9180-47b98f8448c2)
 
 ## Training, Evaluation and Testing
 To train the model, make sure to set you parameters. In the `train.py` file, it has the follwing arguments set:
